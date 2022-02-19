@@ -21,6 +21,7 @@ body {
   --main-background-color: #f6f7f8;
   --button-color: #0071cc;
   --button-hover-color: #0070cce8;
+  --info-icon-color: #546d89;
 }
 
 a {
@@ -130,4 +131,12 @@ header .btn:hover {
 }
 .signup {
   text-decoration: none;
+}
+
+/* information */
+
+.information i {
+  padding: 20px;
+  color: var(--info-icon-color);
+  font-size: 2.5em;
 }

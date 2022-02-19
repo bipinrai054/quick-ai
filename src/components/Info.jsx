@@ -1,25 +1,25 @@
 const Info = () => {
   return (
-    <div className='container'>
+    <div className='information container p-5'>
       <div className='row'>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 text-center'>
           <i className='las la-lock'></i>
-          <h3>100% Secure Payments</h3>
+          <h4>100% Secure Payments</h4>
           <p>Moving your card details to a much more secured place.</p>
         </div>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 text-center'>
           <i className='las la-thumbs-up'></i>
-          <h3>Trust Pay</h3>
+          <h4>Trust Pay</h4>
           <p>100% Payment Protection. Easy Return Policy.</p>
         </div>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 text-center'>
           <i className='las la-bullhorn'></i>
-          <h3>Refer & Earn</h3>
+          <h4>Refer & Earn</h4>
           <p>Invite a friend to sign up and earn up to $100.</p>
         </div>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 text-center'>
           <i className='las la-phone'></i>
-          <h3>24X7 Support</h3>
+          <h4>24X7 Support</h4>
           <p>We're here to help. Have a query and need help ? Click here</p>
         </div>
       </div>
