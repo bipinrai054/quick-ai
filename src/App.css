@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Space+Mono&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* font-size */
+  --large-font-size: 1.5rem;
+  --medium-font-size: 1.2rem;
+  --small-font-size: 1rem;
+
+  /* colors */
+  --navbar-background-color: #ffff;
+  --main-background-color: #f6f7f8;
+}
+
+/*navbar*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 20px 20px;
 }

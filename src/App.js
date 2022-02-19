@@ -1,13 +1,15 @@
 import './App.css';
 
 // components
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
+import Login from './components/Login';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      hello world
+      <Layout>
+        <Login />
+      </Layout>
     </div>
   );
 }
