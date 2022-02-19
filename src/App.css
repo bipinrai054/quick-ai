@@ -68,19 +68,6 @@ nav {
   position: relative;
 }
 
-/* .form-login::after {
-  height: 0.1px;
-  width: 100%;
-  content: ' ';
-  background-color: black;
-  display: block;
-  position: absolute;
-  bottom: -15px;
-  left: 0;
-  -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
-} */
-
 .login-header .active {
   border-bottom: 2px solid var(--button-color);
 }
