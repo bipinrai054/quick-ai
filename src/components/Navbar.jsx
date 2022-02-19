@@ -2,18 +2,30 @@ import logo from '../images/logo.png';
 
 const Navbar = () => {
   return (
-    <header className='p-2'>
+    <header className='p-1'>
       <img src={logo} alt='logo' />
       <nav>
         <ul className='nav-links'>
-          <li>Home</li>
-          <li>Recharge & Bill Payment</li>
-          <li>Booking</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Pages</li>
+          <li>
+            Home <i className='las la-angle-down'></i>
+          </li>
+          <li>
+            Recharge & Bill Payment <i className='las la-angle-down'></i>
+          </li>
+          <li>
+            Booking <i className='las la-angle-down'></i>
+          </li>
+          <li>
+            Features <i className='las la-angle-down'></i>
+          </li>
+          <li>
+            Blog <i className='las la-angle-down'></i>
+          </li>
+          <li>
+            Pages <i className='las la-angle-down'></i>
+          </li>
           <li>Login</li>
-          <button className='btn btn-primary'>Sign Up</button>
+          <button className='btn'>Sign Up</button>
         </ul>
       </nav>
     </header>

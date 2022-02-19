@@ -19,6 +19,15 @@ body {
   /* colors */
   --navbar-background-color: #ffff;
   --main-background-color: #f6f7f8;
+  --button-color: #0071cc;
+  --button-hover-color: #0070cce8;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
 
 /*navbar*/
@@ -34,10 +43,104 @@ nav {
   justify-content: space-around;
 }
 
-.nav-links {
-  list-style: none;
-}
 .nav-links li {
   display: inline-block;
   padding: 20px 20px;
+}
+
+/* main */
+.main {
+  border: 1px solid #fff;
+  background-color: var(--main-background-color);
+}
+
+/* footer */
+
+/* login */
+.login-header {
+  font-size: 1.4em;
+}
+
+.login-header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+/* .form-login::after {
+  height: 0.1px;
+  width: 100%;
+  content: ' ';
+  background-color: black;
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+} */
+
+.login-header .active {
+  border-bottom: 2px solid var(--button-color);
+}
+
+form {
+  display: grid;
+}
+
+form .btn,
+header .btn {
+  background-color: var(--button-color);
+  color: #fff;
+}
+
+form .btn:hover,
+header .btn:hover {
+  background-color: var(--button-hover-color);
+  color: #fff;
+}
+
+.login {
+  background-color: #fff;
+  display: grid;
+  padding: 3em;
+  margin: 4em auto;
+}
+
+.login-subheader {
+  font-size: 20px;
+}
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-icon i {
+  margin: 5px;
+  font-size: 2.5em;
+}
+.facebook {
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 50%;
+}
+.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.5px;
+}
+.google {
+  background-color: #db4437;
+  color: #fff;
+  border-radius: 50%;
+}
+.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+  border-radius: 50%;
+}
+.signup {
+  text-decoration: none;
 }
