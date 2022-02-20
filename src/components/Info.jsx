@@ -1,6 +1,6 @@
 const Info = () => {
   return (
-    <div className='information shadow container-fluid p-2'>
+    <div className='information container p-2'>
       <div className='row'>
         <div className='col-lg-3 text-center'>
           <i className='las la-lock'></i>
