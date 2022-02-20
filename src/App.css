@@ -191,6 +191,7 @@ header .btn:hover {
 .socials-icon i {
   margin: 5px;
   font-size: 2.5em;
+  cursor: pointer;
 }
 .facebook {
   background-color: #3b5998;

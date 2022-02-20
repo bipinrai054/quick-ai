@@ -2,7 +2,7 @@ const Login = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='login col-lg-4 col-md-8 col-sm-12 mt-5 shadow'>
+        <div className='login  col-lg-4 col-md-8 col-sm-12 mt-5 shadow'>
           <div className='login-header'>
             <ul>
               <li className='form-login active'>Login</li>

@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <header className='p-1'>
       <img src={logo} alt='logo' />
+
       <nav>
         <ul className='nav-links'>
           <li>
