@@ -45,7 +45,7 @@ const Login = () => {
                   Remember Me
                 </label>
                 <label>
-                  <a>Forgot Password?</a>
+                  <a href='#'>Forgot Password?</a>
                 </label>
               </div>
             </div>

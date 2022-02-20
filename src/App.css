@@ -13,6 +13,9 @@ body {
 a {
   cursor: pointer;
 }
+li {
+  cursor: pointer;
+}
 
 :root {
   /* font-size */
@@ -36,6 +39,7 @@ li {
 }
 
 /*navbar*/
+
 header {
   display: flex;
   justify-content: space-around;
@@ -51,6 +55,9 @@ nav {
 .nav-links li {
   display: inline-block;
   padding: 20px 20px;
+}
+.nav-links li:hover {
+  color: var(--button-color);
 }
 
 /* main */
@@ -115,18 +122,6 @@ nav {
   -moz-text-fill-color: transparent;
 }
 
-/* .links {
-  text-align: center;
-} */
-
-/* .links ul {
-  margin: 0 auto;
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-} */
-
 .links li {
   padding: 20px 15px;
 }
@@ -187,6 +182,10 @@ header .btn:hover {
 .checkbox {
   display: flex;
   justify-content: space-between;
+}
+.checkbox label a {
+  color: var(--button-color);
+  text-decoration: none;
 }
 
 .socials-icon i {
